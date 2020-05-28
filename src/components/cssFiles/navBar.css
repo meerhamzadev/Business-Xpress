@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.id {
+  padding: 10px;
+  background-color: #161414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 555px) {
+  .id {
+    padding: 4px;
+  }
+}
+
+.id .icon {
+  padding-right: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+@media (min-width: 555px) {
+  .id .icon {
+    padding-right: 50px;
+  }
+}
+/*# sourceMappingURL=navBar.css.map */
