@@ -6,23 +6,21 @@ class Info extends Component {
     render() {
         return (
             <React.Fragment>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Name:  {this.props.info.legal_name}</td>
-                            <td>CEO:  {this.props.info.ceo}</td>
-                            <td>Country:  {this.props.info.hq_country}</td>
-                            <td>Category:  {this.props.info.industry_group}</td>
-                            <td>Phone No:  {this.props.info.business_phone_no}</td>
-                            <td>Adress:  {this.props.info.business_address}</td>
-                            <td>Employees:  {this.props.info.employees}</td>
-                            <td>Url:
-                                <a href={`https://${this.props.info.company_url}`} target="blank">
-                                    {this.props.info.company_url} </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table >
+
+                <div className="info-of-company">
+                    <p>  Name:   {this.props.information.legal_name}</p>
+                    <p> CEO:  {this.props.information.ceo}</p>
+                    <p> Country:  {this.props.information.hq_country}</p>
+                    <p> Category:  {this.props.information.industry_group}</p>
+                    <p> Phone No:  {this.props.information.business_phone_no}</p>
+                    <p> Address:  {this.props.information.business_address}</p>
+                    <p> Employees:  {this.props.information.employees}</p>
+                    <p> Url: <a href={`https://${this.props.information.company_url}`} target="blank">
+                        {this.props.information.company_url} </a>
+                    </p>
+
+                </div>
+
             </React.Fragment >
         )
     }

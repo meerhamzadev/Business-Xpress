@@ -1,13 +1,25 @@
-body {  
-  background-color: rgb(91, 91, 248);
-  color: azure;
+body {
+
+  background-image     : url('./background.jpg');
+  background-position  : center center;
+  background-repeat    : no-repeat;
+  background-attachment: fixed;
+  background-size      : 100% 100%;
+  position             : relative;
+
+  color : azure;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

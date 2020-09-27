@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-import icon from 'E:\\codes\\webfiles\\react\\economic-stats\\src\\components\\css_images\\icon.jpg'
-import './cssFiles/navBar.css'
+import icon from './css_images\\icon.svg'
+import './cssFiles/navBar.css';
+
 class NavBar extends Component {
     render() {
         return (
-            <div className="id">
-                <img src={icon} alt="something went wrong" className="icon" />
-                <h1 className="heading">Stock Info teller</h1>
+            <div className="navBar">
+                <img src={icon} alt="something went wrong" />
+                <h1>Company Stats teller</h1>
             </div>
         )
     }
 }
 
-export default NavBar
+export default NavBar;

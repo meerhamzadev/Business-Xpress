@@ -1,31 +1,14 @@
-* {
-  margin: 0px;
-  padding: 0px;
+.navBar {
+    background-color: black;
+    height          : 3.5rem;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
 }
 
-.id {
-  padding: 10px;
-  background-color: #161414;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+img {
+    height  : 2.5rem;
+    width   : 2.5rem;
+    position: absolute;
+    left    : 0px;
 }
-
-@media (min-width: 555px) {
-  .id {
-    padding: 4px;
-  }
-}
-
-.id .icon {
-  padding-right: 30px;
-  height: 40px;
-  width: 40px;
-}
-
-@media (min-width: 555px) {
-  .id .icon {
-    padding-right: 50px;
-  }
-}
-/*# sourceMappingURL=navBar.css.map */
