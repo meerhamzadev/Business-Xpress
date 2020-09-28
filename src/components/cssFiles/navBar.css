@@ -12,3 +12,9 @@ img {
     position: absolute;
     left    : 0px;
 }
+
+@media(min-width:250px) and (max-width:400px) {
+    .navBar {
+        font-size: 9pt;
+    }
+}

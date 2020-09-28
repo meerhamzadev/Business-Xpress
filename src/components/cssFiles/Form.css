@@ -15,3 +15,15 @@ select {
 select:hover {
     cursor: pointer;
 }
+
+@media (min-width:380px) and (max-width:600px) {
+    select {
+        width: 80%;
+    }
+}
+
+@media(min-width:250px) and (max-width:380px) {
+    select {
+        width: 90%;
+    }
+}

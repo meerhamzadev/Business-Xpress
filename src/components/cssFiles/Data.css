@@ -28,10 +28,22 @@
 
 #description {
     display: none;
-    width  : 50%;
+    width  : 70%;
 }
 
 #description p {
     background-color: rgb(79, 79, 228);
     font-size       : 13pt;
+}
+
+@media (max-width:600px) {
+    #description {
+        width: 90%;
+    }
+}
+
+@media(min-width:250px) and (max-width:357px) {
+    .body button {
+        font-size: 14px;
+    }
 }
