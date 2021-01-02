@@ -1,0 +1,74 @@
+.mainPage {
+    display        : flex;
+    text-decoration: none;
+    height         : 30rem;
+    padding        : 1rem 0rem;
+    border-bottom  : 1px solid rgb(68, 67, 67);
+    gap            : 5rem;
+    margin-bottom  : 3rem;
+    outline        : none;
+}
+
+.mainPage:hover {
+    opacity: .9;
+}
+
+.mainPageContent {
+    box-sizing: border-box;
+    width     : 40%;
+    text-align: left;
+}
+
+.mainPageContent__headline {
+    color        : rgb(54, 51, 51);
+    font-size    : 2.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.mainPageContent__description {
+    color      : rgb(104, 101, 101);
+    font-size  : 1.7rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+}
+
+.mainPage__Img {
+    height: 30rem;
+    width : 60%;
+}
+
+.mainPage__Img img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: fill;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mainPageContent__description {
+        font-size  : 1.8rem;
+        line-height: 2.3rem;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .mainPage {
+        flex-direction: column;
+        height        : 60rem;
+    }
+
+    .mainPageContent__description {
+        font-size  : 1.9rem;
+        line-height: 2.5rem;
+    }
+
+    .mainPageContent {
+        width: 100%;
+    }
+
+    .mainPage__Img {
+        width : 100%;
+        height: 32rem;
+    }
+}

@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-import Data from './components/Data'
-import NavBar from './components/NavBar';
+import Header from './components/Header';
+import Page from './components/Page';
+
 
 class App extends Component {
   render() {
 
     return (
-      <React.Fragment>
-        <NavBar />
-        <Data />
-      </React.Fragment>
+      <>
+        <Header />
+        <Page />
+      </>
     )
   }
 }

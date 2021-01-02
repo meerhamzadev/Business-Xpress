@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap');
+
+.Header {
+    display      : flex;
+    align-items  : center;
+    border-bottom: .5px solid rgb(214, 203, 203);
+    margin-bottom: 4rem;
+
+}
+
+.Header__logo {
+    object-fit: contain;
+    height    : 9.5rem;
+    width     : 9.5rem;
+}
+
+.Header__Title {
+    font-size  : 4rem;
+    font-family: 'Cormorant', serif;
+    overflow   : hidden;
+    white-space: nowrap;
+    animation  : typing 15s;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
